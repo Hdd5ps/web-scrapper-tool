@@ -1,0 +1,7 @@
+from web_scraper_tool.scraper import WebScraper
+
+url = 'https://example.com'
+scraper = WebScraper(url)
+html = scraper.fetch_html()
+# Process the HTML as needed
+scraper.close_driver()
